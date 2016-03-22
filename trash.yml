@@ -1,3 +1,5 @@
 import:
 - package: github.com/Sirupsen/logrus
   version: 446d1c146faa8ed3f4218f056fcd165f6bcfda81
+- package: github.com/rancher/go-rancher-metadata
+  version: 3336d4004ef4ad0809bf7131124a74b90f5bfa40

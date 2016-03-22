@@ -6,7 +6,7 @@ source $(dirname $0)/version
 cd $(dirname $0)/../package
 
 TAG=${TAG:-${VERSION}}
-REPO=${REPO:-rancher}
+REPO=${REPO:-ibuildthecloud}
 
 cp ../bin/metadata-ping .
 docker build -t ${REPO}/metadata-ping:${TAG} .
