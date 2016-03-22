@@ -1,7 +1,8 @@
 metadata-ping
 ========
 
-A microservice that does micro things.
+This is a simple program to hit `http://rancher-metadata/latest/self/container/name` on start.  This is used
+for testing to ensure that DNS and metadata are working at start.
 
 ## Building
 
@@ -11,6 +12,10 @@ A microservice that does micro things.
 ## Running
 
 `./bin/metadata-ping`
+
+or
+
+`docker-compose -f ./package/docker-compose.yml up`
 
 ## License
 Copyright (c) 2014-2016 [Rancher Labs, Inc.](http://rancher.com)
